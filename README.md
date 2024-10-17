@@ -1,4 +1,29 @@
-# LiVOS
+# LiVOS: Lite Video Object Segmentation with Gated Linear Matching
+Pytorch implementation for paper [LiVOS: Lite Video Object Segmentation with Gated Linear Matching](https://arxiv.org/), arXiv 2024. <br>
+
+Qin Liu<sup>1</sup>, 
+Jianfeng Wang<sup>2</sup>, 
+Zhengyuan Yang<sup>2</sup>, 
+Linjie Li<sup>2</sup>, 
+Kevin Lin<sup>2</sup>, 
+Marc Niethammer<sup>1</sup>, 
+Lijuan Wang<sup>2</sup> <br>
+<sup>1</sup>UNC-Chapel Hill, <sup>2</sup> Microsoft
+#### [Paper](https://arxiv.org/) | [Project](https://uncbiag.github.io/LiVOS)
+
+## Installation
+The code is tested with ``python=3.10``, ``torch=2.4.0``, ``torchvision=0.19.0``.
+```
+git clone https://github.com/uncbiag/LiVOS
+cd LiVOS
+```
+Now, create a new conda environment and install required packages accordingly.
+```
+conda create -n livos python=3.10
+conda activate livos
+conda install pytorch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+```
 
 
 ### Quantitative evaluation
