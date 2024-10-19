@@ -1,0 +1,3 @@
+[submodule "vos-benchmark"]
+	path = vos-benchmark
+	url = https://github.com/hkchengrex/vos-benchmark.git
