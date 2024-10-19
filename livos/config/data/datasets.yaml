@@ -26,7 +26,7 @@ image_datasets:
     multiplier: 5
 
 vos_datasets:
-  base: /playpen-raid2/qinliu/data
+  base: /data
   DAVIS:
     image_directory: DAVIS/2017/trainval/JPEGImages/480p
     mask_directory: DAVIS/2017/trainval/Annotations/480p
