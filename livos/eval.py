@@ -14,8 +14,8 @@ import logging
 
 from livos.inference.data.vos_test_dataset import VOSTestDataset
 from livos.inference.data.burst_test_dataset import BURSTTestDataset
-from livos.inference.utils.results_utils import ResultSaver, make_zip
 from livos.inference.object_manager import ObjectManager
+from livos.inference.utils.results_utils import ResultSaver, make_zip
 from livos.inference.utils.burst_utils import BURSTResultHandler
 from livos.inference.utils.args_utils import get_dataset_cfg
 from livos.model.livos_wrapper import LIVOS
