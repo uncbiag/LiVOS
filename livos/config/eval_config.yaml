@@ -62,18 +62,18 @@ datasets:
     use_long_term: False
     mem_every: 5
   d17-val:
-    image_directory: /playpen-raid2/qinliu/data/DAVIS/2017/trainval/JPEGImages/480p
-    mask_directory: /playpen-raid2/qinliu/data/DAVIS/2017/trainval/Annotations/480p
-    subset: /playpen-raid2/qinliu/data/DAVIS/2017/trainval/ImageSets/2017/val.txt
+    image_directory: ../DAVIS/2017/trainval/JPEGImages/480p
+    mask_directory: ../DAVIS/2017/trainval/Annotations/480p
+    subset: ../DAVIS/2017/trainval/ImageSets/2017/val.txt
     size: 480
     save_all: True
     use_all_masks: False
     use_long_term: False
     mem_every: 5
   d17-test-dev:
-    image_directory: /playpen-raid2/qinliu/data/DAVIS/2017/test-dev/JPEGImages/480p
-    mask_directory: /playpen-raid2/qinliu/data/DAVIS/2017/test-dev/Annotations/480p
-    subset: /playpen-raid2/qinliu/data/DAVIS/2017/test-dev/ImageSets/2017/test-dev.txt
+    image_directory: ../DAVIS/2017/test-dev/JPEGImages/480p
+    mask_directory: ../DAVIS/2017/test-dev/Annotations/480p
+    subset: ../DAVIS/2017/test-dev/ImageSets/2017/test-dev.txt
     size: 480
     save_all: True
     use_all_masks: False
@@ -89,26 +89,26 @@ datasets:
     use_long_term: False
     mem_every: 5
   y19-val:
-    image_directory: /playpen-raid2/qinliu/data/YouTube_2019/all_frames/valid_all_frames/JPEGImages
-    mask_directory: /playpen-raid2/qinliu/data/YouTube_2019/valid/Annotations
-    json_directory: /playpen-raid2/qinliu/data/YouTube_2019/valid/meta.json
+    image_directory: ../YouTube_2019/all_frames/valid_all_frames/JPEGImages
+    mask_directory: ../YouTube_2019/valid/Annotations
+    json_directory: ../YouTube_2019/valid/meta.json
     size: 480
     save_all: False
     use_all_masks: True
     use_long_term: False
     mem_every: 5
   y19-val-debug:
-    image_directory: /playpen-raid2/qinliu/data/YouTube_2019/all_frames/valid_all_frames/JPEGImages
-    mask_directory: /playpen-raid2/qinliu/data/YouTube_2019/valid/Annotations_debug
-    json_directory: /playpen-raid2/qinliu/data/YouTube_2019/valid/meta_debug.json
+    image_directory: ../YouTube_2019/all_frames/valid_all_frames/JPEGImages
+    mask_directory: ../YouTube_2019/valid/Annotations_debug
+    json_directory: ../YouTube_2019/valid/meta_debug.json
     size: 480
     save_all: False
     use_all_masks: True
     use_long_term: False
     mem_every: 5
   mose-val:
-    image_directory: /playpen-raid2/qinliu/data/MOSE/valid/JPEGImages
-    mask_directory: /playpen-raid2/qinliu/data/MOSE/valid/Annotations
+    image_directory: ../MOSE/valid/JPEGImages
+    mask_directory: ../MOSE/valid/Annotations
     size: 480
     save_all: True
     use_all_masks: False
@@ -139,16 +139,16 @@ datasets:
     use_long_term: True
     mem_every: 10
   lvos-val:
-    image_directory: /playpen-raid2/qinliu/data/LVOS/valid/JPEGImages
-    mask_directory: /playpen-raid2/qinliu/data/LVOS/valid/Annotations_first_only
+    image_directory: ../LVOS/valid/JPEGImages
+    mask_directory: ../LVOS/valid/Annotations_first_only
     size: 480
     save_all: False
     use_all_masks: True
     use_long_term: True
     mem_every: 5
   lvos-test:
-    image_directory: /playpen-raid2/qinliu/data/LVOS/test/JPEGImages
-    mask_directory: /playpen-raid2/qinliu/data/LVOS/test/Annotations
+    image_directory: ../LVOS/test/JPEGImages
+    mask_directory: ../LVOS/test/Annotations
     size: 480
     save_all: False
     use_all_masks: True

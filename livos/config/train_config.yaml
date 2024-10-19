@@ -6,7 +6,7 @@ defaults:
 
 hydra:
   run:
-    dir: /playpen-raid2/qinliu/models/model_0903_2024/${exp_id}
+    dir: ./model_mmdd_yyyy/${exp_id}
   output_subdir: ${now:%Y-%m-%d_%H-%M-%S}-hydra
 
 exp_id: default
