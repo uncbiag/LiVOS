@@ -90,7 +90,7 @@ You should get the following results using our provided models:
 <table>
     <thead align="center">
         <tr>
-            <th rowspan="2"><span style="font-weight:bold">Train</span><br><span style="font-weight:bold">Dataset</span></th>
+            <th rowspan="2"><span style="font-weight:bold">Training</span><br><span style="font-weight:bold">Dataset</span></th>
             <th rowspan="2">Model</th>
             <th colspan="6">J&F</th>
         </tr>
