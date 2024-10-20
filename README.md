@@ -31,9 +31,9 @@ pip install -r requirements.txt
 ```
 
 ## Weights
-Download model weights and save them in ```./weights``` folder.
+Download the model weights and store them in the ./weights directory. The directory will be automatically created if it does not already exist.
 ```bash
-python ./weights/download.py
+python ./download.py
 ```
 
 ## Datasets
