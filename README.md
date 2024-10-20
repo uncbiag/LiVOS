@@ -86,30 +86,7 @@ Prepare the datasets in the following structure:
 ```
 
 ## Evaluation
-1. To run the evaluation:
-```bash
-python livos/eval.py dataset=[dataset] weights=[path to model file]
-```
-Example for DAVIS 2017 validation set (more dataset options in ```livos/config/eval_config.yaml```):
-```bash
-python livos/eval.py dataset=d17-val weights=./weights/livos-nomose-480p.pth
-```
-
-2. To get quantitative results for DAVIS 2017 validation:
-```bash
-GT_DIR=../DAVIS/2017/trainval/Annotations/480p
-Seg_DIR=./results/d17-val/Annotations
-python ./vos-benchmark/benchmark.py -g ${GT_DIR} -m ${Seg_DIR}
-```
-
-3. For results on other datasets,
-- DAVIS 2017 test-dev: [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6812)
-- YouTubeVOS 2019 validation: [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/7683)
-- LVOS val: [LVOS](https://github.com/LingyiHongfd/lvos-evaluation)
-- LVOS test: [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/8767)
-- MOSE val: [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/10703)
-
-4. You should get the following results using our provided models:
+You should get the following results using our provided models:
 <table>
     <thead align="center">
         <tr>
@@ -159,6 +136,29 @@ python ./vos-benchmark/benchmark.py -g ${GT_DIR} -m ${Seg_DIR}
         </tr>
     </tbody>
 </table>
+
+1. To run the evaluation:
+```bash
+python livos/eval.py dataset=[dataset] weights=[path to model file]
+```
+Example for DAVIS 2017 validation set (more dataset options in ```livos/config/eval_config.yaml```):
+```bash
+python livos/eval.py dataset=d17-val weights=./weights/livos-nomose-480p.pth
+```
+
+2. To get quantitative results for DAVIS 2017 validation:
+```bash
+GT_DIR=../DAVIS/2017/trainval/Annotations/480p
+Seg_DIR=./results/d17-val/Annotations
+python ./vos-benchmark/benchmark.py -g ${GT_DIR} -m ${Seg_DIR}
+```
+
+3. For results on other datasets,
+- DAVIS 2017 test-dev: [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6812)
+- YouTubeVOS 2019 validation: [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/7683)
+- LVOS val: [LVOS](https://github.com/LingyiHongfd/lvos-evaluation)
+- LVOS test: [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/8767)
+- MOSE val: [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/10703)
 
 
 ## Training
