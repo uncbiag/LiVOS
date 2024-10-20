@@ -12,7 +12,7 @@ Lijuan Wang<sup>2</sup> <br>
 #### [Paper](https://arxiv.org/) | [Project](https://uncbiag.github.io/LiVOS)
 
 <p align="center">
-  <img src="./docs/livos_framework.png" alt="drawing", height="300"/>
+  <img src="./docs/livos_framework.png" alt="drawing", height="360"/>
 </p>
 
 
@@ -37,33 +37,6 @@ python ./weights/download.py
 ```
 
 ## Datasets
-Download datasets and prepare them in the following structure:
-```bash
-├── LiVOS (codebase)
-├── DAVIS
-│   └── 2017
-│       ├── test-dev
-│       │   ├── Annotations
-│       │   └── ...
-│       └── trainval
-│           ├── Annotations
-│           └── ...
-├── YouTube
-│   ├── all_frames
-│   │   └── valid_all_frames
-│   ├── train
-│   └── valid
-├── LVOS
-│   ├── valid
-|   |   ├──Annotations
-|   |   └── ...
-|   └── test
-|       ├──Annotations
-|       └── ...
-└── MOSE
-    ├── JPEGImages
-    └── Annotations
-```
 | Dataset   |                      Description             |           Download Link              |
 |-----------|----------------------------------------------|:------------------------------------:|
 |DAVIS 2017 |  60 videos (train); 30 videos (val); 30 videos (test) |  [official site][d17]|
@@ -82,6 +55,34 @@ Download datasets and prepare them in the following structure:
 (*) To prepare LVOS, you need to extract only the first annotations for its validation set:
 ```bash
 python scripts/data/preprocess_lvos.py ../LVOS/valid/Annotations ../LVOS/valid/Annotations_first_only
+```
+
+Prepare the datasets in the following structure:
+```
+├── LiVOS (codebase)
+├── DAVIS
+│   └── 2017
+│       ├── test-dev
+│       │   ├── Annotations
+│       │   └── ...
+│       └── trainval
+│           ├── Annotations
+│           └── ...
+├── YouTube
+│   ├── all_frames
+│   │   └── valid_all_frames
+│   ├── train
+│   └── valid
+├── LVOS
+│   ├── valid
+│   │   ├──Annotations
+│   │   └── ...
+│   └── test
+│       ├──Annotations
+│       └── ...
+└── MOSE
+    ├── JPEGImages
+    └── Annotations
 ```
 
 ## Evaluation
