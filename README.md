@@ -8,7 +8,7 @@ Linjie Li<sup>2</sup>,
 Kevin Lin<sup>2</sup>, 
 Marc Niethammer<sup>1</sup>, 
 Lijuan Wang<sup>2</sup> <br>
-<sup>1</sup>UNC-Chapel Hill, <sup>2</sup> Microsoft
+<sup>1</sup>UNC-Chapel Hill, <sup>2</sup>Microsoft
 #### [Paper](https://arxiv.org/) | [Project](https://uncbiag.github.io/LiVOS)
 
 <p align="center">
