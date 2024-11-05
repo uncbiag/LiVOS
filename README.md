@@ -41,7 +41,7 @@ python ./download.py
 |-----------|----------------------------------------------|:------------------------------------:|
 |DAVIS 2017 |  60 videos (train); 30 videos (val); 30 videos (test) |  [official site][d17]|
 |YouTube VOS 2019  |  3471 videos (train); 507 videos (val)     |  [official site][y19]|
-|MOSE  |  3000 videos (train); 100 videos (val)     |  [official site][mose]|
+|MOSE  |  1507 videos (train); 311 videos (val)     |  [official site][mose]|
 |LVOS (v1)*  |  50 vidoes (val); 50 videos (test)     |  [official site][lvos]|
 
 
