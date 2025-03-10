@@ -1,5 +1,5 @@
 # LiVOS: Light Video Object Segmentation with Gated Linear Matching
-Pytorch implementation for paper [LiVOS: Light Video Object Segmentation with Gated Linear Matching](https://arxiv.org/abs/2411.02818), arXiv 2024. <br>
+Pytorch implementation for paper [LiVOS: Light Video Object Segmentation with Gated Linear Matching](https://arxiv.org/abs/2411.02818), CVPR 2025. <br>
 
 Qin Liu<sup>1</sup>, 
 Jianfeng Wang<sup>2</sup>, 
