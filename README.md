@@ -18,16 +18,18 @@ Lijuan Wang<sup>2</sup> <br>
 
 ## Installation
 The code is tested with ``python=3.10``, ``torch=2.4.0``, ``torchvision=0.19.0``.
-```bash
-git clone https://github.com/uncbiag/LiVOS
-cd LiVOS
-```
+
 Create a new conda environment and install required packages accordingly.
 ```bash
 conda create -n livos python=3.10
 conda activate livos
 conda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=12.1 -c pytorch -c nvidia
-pip install -r requirements.txt
+```
+Clone our repository and install with pip:
+```bash
+git clone https://github.com/uncbiag/LiVOS
+cd LiVOS
+pip install -e .
 ```
 
 ## Weights
@@ -153,7 +155,7 @@ Seg_DIR=./results/d17-val/Annotations
 python ./vos-benchmark/benchmark.py -g ${GT_DIR} -m ${Seg_DIR}
 ```
 
-3. For results on other datasets,
+3. To get quantitative results for other datasets:
 - DAVIS 2017 test-dev: [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6812)
 - YouTubeVOS 2019 validation: [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/7683)
 - LVOS val: [LVOS](https://github.com/LingyiHongfd/lvos-evaluation)
