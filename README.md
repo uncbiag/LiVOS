@@ -1,5 +1,5 @@
-# LiVOS: Lite Video Object Segmentation with Gated Linear Matching
-Pytorch implementation for paper [LiVOS: Lite Video Object Segmentation with Gated Linear Matching](https://arxiv.org/), arXiv 2024. <br>
+# LiVOS: Light Video Object Segmentation with Gated Linear Matching
+Pytorch implementation for paper [LiVOS: Light Video Object Segmentation with Gated Linear Matching](https://arxiv.org/abs/2411.02818), CVPR 2025. <br>
 
 Qin Liu<sup>1</sup>, 
 Jianfeng Wang<sup>2</sup>, 
@@ -8,8 +8,8 @@ Linjie Li<sup>2</sup>,
 Kevin Lin<sup>2</sup>, 
 Marc Niethammer<sup>1</sup>, 
 Lijuan Wang<sup>2</sup> <br>
-<sup>1</sup>UNC-Chapel Hill, <sup>2</sup> Microsoft
-#### [Paper](https://arxiv.org/) | [Project](https://uncbiag.github.io/LiVOS)
+<sup>1</sup>UNC-Chapel Hill, <sup>2</sup>Microsoft
+#### [Paper](https://arxiv.org/abs/2411.02818)
 
 <p align="center">
   <img src="./docs/livos_framework.png" alt="drawing", height="360"/>
@@ -41,7 +41,7 @@ python ./download.py
 |-----------|----------------------------------------------|:------------------------------------:|
 |DAVIS 2017 |  60 videos (train); 30 videos (val); 30 videos (test) |  [official site][d17]|
 |YouTube VOS 2019  |  3471 videos (train); 507 videos (val)     |  [official site][y19]|
-|MOSE  |  3000 videos (train); 100 videos (val)     |  [official site][mose]|
+|MOSE  |  1507 videos (train); 311 videos (val)     |  [official site][mose]|
 |LVOS (v1)*  |  50 vidoes (val); 50 videos (test)     |  [official site][lvos]|
 
 
@@ -175,7 +175,7 @@ OMP_NUM_THREADS=4 torchrun --master_port 25350 --nproc_per_node=4 livos/train.py
 @article{liu2024livos,
   title={LiVOS: Lite Video Object Segmentation with Gated Linear Matching},
   author={Liu, Qin and Wang, Jianfeng and Yang, Zhengyuan and Li, Linjie and Lin, Kevin and Niethammer, Marc and Wang, lijuan},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2411.02818},
   year={2024}
 }
 ```
