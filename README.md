@@ -108,7 +108,7 @@ You should get the following results using our provided models:
     <tbody align="center">
         <tr>
             <td rowspan="1">D17+YT19</td>
-            <td align="left"><a href="https://drive.google.com/uc?export=download&id=1tG_BxCTWp_o9YH0vBqZqLC9KBsEGSsaH">livos-nomose-480p (135 MB)</a></td>
+            <td align="left"><a href="https://drive.google.com/uc?export=download&id=1ZjhVMUppZ5OZipCALU9ZYwiVF5DEPBxX">livos-nomose-480p (135 MB)</a></td>
             <td>59.2</td>
             <td>84.4</td>
             <td>78.2</td>
@@ -118,7 +118,7 @@ You should get the following results using our provided models:
         </tr>
         <tr>
             <td rowspan="1">D17+YT19</td>
-            <td align="left"><a href="https://drive.google.com/uc?export=download&id=1ToIDo6PIYF7lQGfO4F7HuHneyatKGWnx">livos-nomose-ft-480p (135 MB)</a></td>
+            <td align="left"><a href="https://drive.google.com/uc?export=download&id=1rUxSjKreh5Q_X7FHvFRyoKBR7GqJr04P">livos-nomose-ft-480p (135 MB)</a></td>
             <td>58.4</td>
             <td>85.1</td>
             <td>81.0</td>
@@ -128,7 +128,7 @@ You should get the following results using our provided models:
         </tr>
         <tr>
             <td rowspan="1">D17+YT19+MOSE</td>
-            <td align="left"><a href="https://drive.google.com/uc?export=download&id=13FVuxcEwNRfY70PA3O9pOyPO7Gx7Zl5N">livos-wmose-480p (135 MB)</a></td>
+            <td align="left"><a href="https://drive.google.com/uc?export=download&id=1lhfnRCe1yPfB9dcWSA6hv7ABPzHFuNCY">livos-wmose-480p (135 MB)</a></td>
             <td>64.8</td>
             <td>84.0</td>
             <td>79.6</td>
